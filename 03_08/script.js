@@ -28,3 +28,7 @@ console.log("Left before:", backpack.strapLength.left);
 
 backpack.newStrapLength(10, 15);
 console.log("Left after:", backpack.strapLength.left);
+
+console.log("Lid before toggleLid:", backpack.lidOpen)
+backpack.toggleLid(true);
+console.log("Lid after toggleLid:", backpack.lidOpen)

@@ -23,4 +23,16 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newName: function (rename) {
+    this.name = rename;
+  },
+  chgVolume: function (newVol) {
+    this.volume = newVol;
+  }
+  chgColor: function (newColor) {
+    this.color = newColor;
+  },
+  chgPockets: function (numPockets) {
+    this.pocketNum = numPockets;
+  }
 };
