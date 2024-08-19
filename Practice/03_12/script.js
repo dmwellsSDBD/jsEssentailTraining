@@ -6,3 +6,20 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+const everydayShoes = new Shoes(
+    "Casual Shoes",
+    10,
+    "white",
+    "HeyDudes",
+    "Slip-on Sneakers",
+    true
+);
+
+const blueCofCup = new coffeeCup(
+    "Blue Coffee Cup",
+    24,
+    "Blue",
+    "SkillsUSA",
+    false
+);

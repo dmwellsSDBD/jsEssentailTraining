@@ -5,7 +5,7 @@
  * Class expression:  const Name = class {}
  */
 
-class Backpack {
+class Backpack { // Capitalize the name, Normal practice
   constructor(
     // Defines parameters:
     name,

@@ -42,8 +42,21 @@ const cellPhone = {
     toggleCharge: function (chargeStatus) {
         this.fullCharge = chargeStatus;
     }
-}
+};
 
 console.log("The cell phone object:", cellPhone);
 console.log("This cell phone is an:", cellPhone.model);
 console.log("The color of my cell phone is:", cellPhone.color);
+
+const airPodHolder = {
+  chargerType: "C-Connecter",
+  style: "Grogu",
+  fullCharge: false, 
+  toggleCharge: function (chargeStatus) {
+    this.fullCharge = chargeStatus;
+  },
+  lidClosed: true,
+  toggleLid: function(lidStatus) {
+    this.lidClosed = lidStatus;
+  }
+};

@@ -3,7 +3,7 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
  */
 
-function Backpack(
+function Backpack( // Object constructor function
   name,
   volume,
   color,

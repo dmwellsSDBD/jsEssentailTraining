@@ -28,7 +28,7 @@ const backpack = {
   },
   chgVolume: function (newVol) {
     this.volume = newVol;
-  }
+  },
   chgColor: function (newColor) {
     this.color = newColor;
   },

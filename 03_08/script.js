@@ -12,10 +12,13 @@ const backpack = {
     right: 26,
   },
   lidOpen: false,
-  toggleLid: function (lidStatus) {
+
+  // A Method is a function inside of an Object Property
+  
+  toggleLid: function (lidStatus) { // This is a Method
     this.lidOpen = lidStatus;
   },
-  newStrapLength: function (lengthLeft, lengthRight) {
+  newStrapLength: function (lengthLeft, lengthRight) { // This is a Method
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
